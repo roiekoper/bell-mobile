@@ -1,2 +1,4 @@
-bell-mobile
-===========
+bell
+====
+
+Just another smartphone app
