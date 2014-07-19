@@ -12,7 +12,7 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>myApp</name>
+    <name>Bell</name>
     <description>
     Just another Smartphone Application
   </description>

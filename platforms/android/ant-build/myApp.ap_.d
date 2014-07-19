@@ -38,12 +38,9 @@ C:\prjs\bell-mobile\platforms\android\assets\www\js \
 C:\prjs\bell-mobile\platforms\android\assets\www\lib \
 C:\prjs\bell-mobile\platforms\android\assets\www\plugins \
 C:\prjs\bell-mobile\platforms\android\assets\www\README.md \
-C:\prjs\bell-mobile\platforms\android\assets\www\templates \
 C:\prjs\bell-mobile\platforms\android\assets\www\css\style.css \
 C:\prjs\bell-mobile\platforms\android\assets\www\img\ionic.png \
 C:\prjs\bell-mobile\platforms\android\assets\www\js\app.js \
-C:\prjs\bell-mobile\platforms\android\assets\www\js\controllers.js \
-C:\prjs\bell-mobile\platforms\android\assets\www\js\services.js \
 C:\prjs\bell-mobile\platforms\android\assets\www\lib\ionic \
 C:\prjs\bell-mobile\platforms\android\assets\www\lib\ionic\css \
 C:\prjs\bell-mobile\platforms\android\assets\www\lib\ionic\fonts \
@@ -118,9 +115,4 @@ C:\prjs\bell-mobile\platforms\android\assets\www\plugins\com.ionic.keyboard\www 
 C:\prjs\bell-mobile\platforms\android\assets\www\plugins\com.ionic.keyboard\www\keyboard.js \
 C:\prjs\bell-mobile\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 C:\prjs\bell-mobile\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
-C:\prjs\bell-mobile\platforms\android\assets\www\templates\friend-detail.html \
-C:\prjs\bell-mobile\platforms\android\assets\www\templates\tab-account.html \
-C:\prjs\bell-mobile\platforms\android\assets\www\templates\tab-dash.html \
-C:\prjs\bell-mobile\platforms\android\assets\www\templates\tab-friends.html \
-C:\prjs\bell-mobile\platforms\android\assets\www\templates\tabs.html \
 C:\prjs\bell-mobile\platforms\android\ant-build\AndroidManifest.xml \
