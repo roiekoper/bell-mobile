@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+var bellApp = angular.module('bellApp', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -16,4 +16,24 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
-})
+});
+
+bellApp.service("PullingRefreshPressed",['$http',PullingRefreshPressed]);
+
+bellApp.controller('bellController',['$scope','PullingRefreshPressed',bellController]);
+
+function bellController($scope,PullingRefreshPressed){
+    $scope.posts = [];
+    $scope.refresh = function(){
+        PullingRefreshPressed.getPosts($scope);
+    }
+}
+
+function PullingRefreshPressed($http){
+    this.getPosts = function($scope){
+        $http.jsonp('myURL').success(function(result){
+            $scope.posts = result.posts;
+            $scope.$broadcast('scroll.refreshComplete');
+        })
+    }
+}
